@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guihuan">
+
+    <TextView
+        android:id="@+id/stu_id"
+        android:text="学生学号:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/book_id"
+        android:text="书籍序号:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintLeft_toRightOf="@id/stu_id"/>
+
+    <TextView
+        android:id="@+id/borrow_date"
+        android:text="借书时间:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/stu_id" />
+
+    <TextView
+        android:id="@+id/expect_date"
+        android:text="预期归还时间:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/borrow_date" />
+
+
+
+</android.support.constraint.ConstraintLayout>

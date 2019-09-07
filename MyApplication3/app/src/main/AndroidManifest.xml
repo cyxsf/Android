@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.myapplication3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".Borrow"/>
+        <activity android:name=".Updatebook"/>
+        <activity android:name=".Editstu"/>
+        <activity android:name=".Stu_home"/>
+        <activity android:name=".Register2"/>
+        <activity android:name=".Manager_home"/>
+        <activity android:name=".Addbook"/>
+        <activity android:name=".Deletestu"/>
+        <activity android:name=".Jieyue"/>
+        <activity android:name=".Guihuan"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zzz"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学生注册界面"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/stu_id"
+        android:text="学号："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/stu_pwd"
+        android:text="密码："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_id"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/stu_pwd2"
+        android:text="密码："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_pwd"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/stu_name"
+        android:text="姓名："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_pwd2"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/stu_sex"
+        android:text="性别："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_name"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/stu_age"
+        android:text="年龄："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_sex"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/stu_pro"
+        android:text="专业："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_age"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/stu_grade"
+        android:text="年级："
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/stu_pro"
+        android:layout_marginTop="18dp"/>
+
+    <EditText
+        android:id="@+id/text_stuid"
+        android:hint="请输入学号"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_id"
+        app:layout_constraintLeft_toRightOf="@id/stu_id"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_stupwd"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_pwd"
+        app:layout_constraintLeft_toRightOf="@id/stu_pwd"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_stupwd2"
+        android:hint="再次输入密码"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_pwd2"
+        app:layout_constraintLeft_toRightOf="@id/stu_pwd2"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_name"
+        android:hint="请输入姓名"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_name"
+        app:layout_constraintLeft_toRightOf="@id/stu_name"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_sex"
+        android:hint="请输入性别"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_sex"
+        app:layout_constraintLeft_toRightOf="@id/stu_sex"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_age"
+        android:hint="请输入年龄"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_age"
+        app:layout_constraintLeft_toRightOf="@id/stu_age"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_pro"
+        android:hint="请输入专业"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_pro"
+        app:layout_constraintLeft_toRightOf="@id/stu_pro"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:id="@+id/text_grade"
+        android:hint="请输入年级"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:paddingTop="0dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/stu_grade"
+        app:layout_constraintLeft_toRightOf="@id/stu_grade"
+        android:layout_marginRight="20dp" />
+
+    <View
+        android:id="@+id/button_box"
+        android:layout_height="120dp"
+        android:layout_width="280dp"
+        app:layout_constraintTop_toBottomOf="@id/text_grade"
+        android:layout_marginTop="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="注册"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/button_box"
+        app:layout_constraintTop_toTopOf="@id/button_box" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape"
+        android:text="取消"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+</android.support.constraint.ConstraintLayout>
