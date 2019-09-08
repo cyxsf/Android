@@ -1,12 +1,31 @@
 图书管理系统
 
-1.学生可以直接通过借阅终端来查阅书籍信息，同时也可以查阅自己的借阅信息。
-<p align="center">
-    <img src="images/1.1.png" alt="login"/>
-</p>
+1.主页面和登录、注册页面
 
-2.当学生需要借阅书籍时，通过账号密码登陆借阅系统，借阅系统处理学生的借阅，同时修改图书馆保存的图书信息，修改被借阅的书籍是否还有剩余，同时更新学生个人的借阅信息。
-3.学生借阅图书之前需要将自己的个人信息注册，登陆时对照学生信息。
-4.学生直接归还图书，根据图书编码修改借阅信息
-5.管理员登陆管理系统后，可以修改图书信息，增加或者删除图书信息
-6.管理员可以注销学生信息。
+<img src="images/1.1.png" alt="login" width="100px" />
+<img src="images/1.2.png" alt="login" width="100px" />
+<img src="images/1.3.png" alt="login" width="100px" />
+<img src="images/1.4.png" alt="login" width="100px" />
+
+2.学生页面
+
+学生可以直接通过借阅终端来查阅书籍信息，同时也可以查阅自己的借阅信息，借阅图书。
+
+<img src="images/2.1.png" alt="login" width="100px" />
+<img src="images/2.2.png" alt="login" width="100px" />
+<img src="images/2.3.png" alt="login" width="100px" />
+<img src="images/2.4.png" alt="login" width="100px" />
+<img src="images/2.5.png" alt="login" width="100px" />
+
+3.管理员页面
+
+管理员可以对图书信息进行增删改、归还图书，同时管理员可以注销学生信息。
+
+<img src="images/3.1.png" alt="login" width="100px" />
+<img src="images/3.2.png" alt="login" width="100px" />
+<img src="images/3.3.png" alt="login" width="100px" />
+<img src="images/3.4.png" alt="login" width="100px" />
+<img src="images/3.5.png" alt="login" width="100px" />
+<img src="images/3.6.png" alt="login" width="100px" />
+<img src="images/3.7.png" alt="login" width="100px" />
+<img src="images/3.8.png" alt="login" width="100px" />
