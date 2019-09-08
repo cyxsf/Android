@@ -144,8 +144,9 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                         int count = userManager.refind(account);
                         //用户已经存在时返回，给出提示文字
                         if (count > 0) {
-                            Toast.makeText(Register.this, "用户已存在", Toast.LENGTH_SHORT).show();
-                            return;
+                            Intent intent_re_user = new Intent(Register.this, User_main.class);
+                            intent_re_user.putExtra("user_id", account);
+                            startActivity(intent_re_user);
                         } else {
                             Intent intent_re_re2 = new Intent(Register.this, Register2.class);
                             intent_re_re2.putExtra("user_id", account);
