@@ -2,10 +2,12 @@
 
 1.主页面和登录、注册页面
 
+<div style="display:flex">
 <img src="images/1.1.png" alt="login" width="100px" />
 <img src="images/1.2.png" alt="login" width="100px" />
 <img src="images/1.3.png" alt="login" width="100px" />
 <img src="images/1.4.png" alt="login" width="100px" />
+</div>
 
 2.学生页面
 
